@@ -3,19 +3,19 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "index",
+				"navigationBarTitleText": "动态",
 				"navigationBarBackgroundColor": "#000"
 			}
 		}, {
 			"path": "pages/news/news",
 			"style": {
-				"navigationBarTitleText": "news",
+				"navigationBarTitleText": "广场",
 				"navigationBarBackgroundColor": "#000"
 			}
 		}, {
 			"path": "pages/test/test",
 			"style": {
-				"navigationBarTitleText": "test",
+				"navigationBarTitleText": "我",
 				"navigationBarBackgroundColor": "#000"
 			}
 		}
@@ -27,13 +27,20 @@
 		"backgroundColor": "#000",
 		"list": [{
 			"pagePath": "pages/index/index",
-			"text": "index"
+			"text": "动态",
+			"iconPath":"static/ic-user-two-两个人.png",
+			"selectedIconPath":"static/ic-user-two-两个人%20(1).png"
 		}, {
 			"pagePath": "pages/news/news",
-			"text": "news"
+			"text": "广场",
+			"iconPath":"static/便签.png",
+			"selectedIconPath":"static/便签%20(1).png"
+			
 		}, {
 			"pagePath": "pages/test/test",
-			"text": "test"
+			"text": "我",
+			"iconPath":"static/一个人.png",
+			"selectedIconPath":"static/一个人%20(1).png"
 		}]
 	},
 	"globalStyle": {

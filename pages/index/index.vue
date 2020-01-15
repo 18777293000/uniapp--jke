@@ -16,7 +16,7 @@
 			}
 		},
 		components:{
-			test:
+			
 		},
 		onLoad() {
 
