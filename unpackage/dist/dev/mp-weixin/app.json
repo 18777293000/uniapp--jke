@@ -1,14 +1,41 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/test/test"
   ],
   "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "动态",
+        "iconPath": "static/ic-user-two.png",
+        "selectedIconPath": "static/ic-user-two-1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "广场",
+        "iconPath": "static/bianqian.png",
+        "selectedIconPath": "./static/bianqian1.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "我",
+        "iconPath": "static/one.png",
+        "selectedIconPath": "static/one1.png"
+      }
+    ]
   },
   "usingComponents": {}
 }

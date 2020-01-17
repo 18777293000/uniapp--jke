@@ -1,4 +1,7 @@
 {
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {}
+  "navigationBarTitleText": "动态",
+  "navigationBarBackgroundColor": "#000",
+  "usingComponents": {
+    "test": "/components/test"
+  }
 }

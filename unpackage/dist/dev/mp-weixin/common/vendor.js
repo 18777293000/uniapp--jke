@@ -7595,7 +7595,7 @@ module.exports = g;
 /***/ }),
 /* 4 */
 /*!**************************************!*\
-  !*** E:/code/test_uniapp/pages.json ***!
+  !*** E:/code/uniapp--jke/pages.json ***!
   \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -8502,18 +8502,18 @@ module.exports = {"_from":"@dcloudio/uni-stat@alpha","_id":"@dcloudio/uni-stat@2
 /***/ }),
 /* 7 */
 /*!*******************************************************!*\
-  !*** E:/code/test_uniapp/pages.json?{"type":"style"} ***!
+  !*** E:/code/uniapp--jke/pages.json?{"type":"style"} ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "uni-app", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/news/news": {} }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "动态", "navigationBarBackgroundColor": "#000", "usingComponents": { "test": "/components/test" }, "usingAutoImportComponents": {} }, "pages/news/news": { "navigationBarTitleText": "广场", "navigationBarBackgroundColor": "#000", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/test/test": { "navigationBarTitleText": "我", "navigationBarBackgroundColor": "#000", "usingComponents": {}, "usingAutoImportComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
 /*!******************************************************!*\
-  !*** E:/code/test_uniapp/pages.json?{"type":"stat"} ***!
+  !*** E:/code/uniapp--jke/pages.json?{"type":"stat"} ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
